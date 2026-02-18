@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // Base URL for GitHub Pages deployment
+  base: '/yue/',
   title: "肇庆医学院药学院班级主页",
   description: "Class Homepage for Pharmacy School, Zhaoqing Medical College",
   lang: 'zh-CN',
